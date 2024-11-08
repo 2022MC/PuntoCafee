@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: "Itim", cursive;
+}
+
+/* สไตล์ Nav Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* โลโก้ */
+  .logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* รายการลิงก์ */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  /* ลิงก์แต่ละอัน */
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  /* เปลี่ยนสีเมื่อเมาส์ชี้ */
+  .nav-links a:hover {
+    color: #ff9800;
+  }
+  
+  /* เพิ่ม padding ให้เนื้อหาหลักไม่ทับกับ Nav Bar */
+  body {
+    padding-top: 60px;
+  }
+
+  img {
+    display: block;
+    margin: 200px auto 0 auto; /* ตั้งค่า margin ด้านบนให้มีระยะห่าง */
+    max-width: 300px;
+    max-height: 150px;
+    transition: transform 0.3s ease;
+  }
+
+  .text-about h1 {
+    position: relative;
+    left: 15px;
+    bottom: 80px;
+    display: block;
+    margin: 200px auto 0 auto; /* ตั้งค่า margin ด้านบนให้มีระยะห่าง */
+    max-width: 200px;
+    max-height: 150px;
+    transition: transform 0.3s ease;
+    color: white;
+    font-size: 30px;
+  }
+
+  .text-about p {
+    position: relative;
+    left: 15px;
+    bottom: 220px;
+    display: block;
+    margin: 200px auto 0 auto; /* ตั้งค่า margin ด้านบนให้มีระยะห่าง */
+    max-width: 200px;
+    max-height: 150px;
+    transition: transform 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
